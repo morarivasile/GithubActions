@@ -10,7 +10,7 @@ import Foundation
 
 class Fastfile: LaneFile {
 	func testLane() {
-	desc("All the tests in the world")
-		scan()
+        desc("All the tests in the world")
+        scan()
 	}
 }
