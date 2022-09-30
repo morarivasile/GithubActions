@@ -36,6 +36,7 @@ jobs:
       run: fastlane unitTestLane
 
   uiTests:
+    needs: build
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v3
