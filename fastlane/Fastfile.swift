@@ -11,6 +11,6 @@ import Foundation
 class Fastfile: LaneFile {
 	func testLane() {
         desc("All the tests in the world")
-        scan()
+		scan(xcodebuildFormatter: "")
 	}
 }
